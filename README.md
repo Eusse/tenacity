@@ -1,6 +1,7 @@
 # Tenacity
 
 [![Build Status](https://travis-ci.org/Eusse/tenacity.svg?branch=master)](https://travis-ci.org/Eusse/tenacity)
+[![Coverage Status](https://coveralls.io/repos/github/Eusse/tenacity/badge.svg?branch=master)](https://coveralls.io/github/Eusse/tenacity?branch=master)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
