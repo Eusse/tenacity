@@ -18,7 +18,11 @@
           <ul class="dropdown-menu">
             <li><a href="#">{{fa-icon 'user'}} Profile</a></li>
             <li><a href="#">{{fa-icon 'wrench'}} Settings</a></li>
-            <li><a href="#">{{fa-icon 'info-circle'}} About</a></li>
+            <li>
+              {{#link-to 'about'}}
+                {{fa-icon 'info-circle'}} About
+              {{/link-to}}
+            </li>
             <li role="separator" class="divider"></li>
             <li><a href="#">{{fa-icon 'power-off'}} Logout</a></li>
           </ul>
@@ -27,3 +31,6 @@
     </div>
   </div>
 </nav>
+<div class="container-fluid">
+  {{outlet}}
+</div>
